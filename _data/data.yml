@@ -27,16 +27,19 @@ sidebar:
   # Actualiza según los idiomas y nieles que tienes. Agrega o Elimina según sea necesario.
   languages:
     - idiom: English
-      level: Fluent # Utiliza el resultado de tu examen oficial, o el nivel de acuerdo al modelo Dreyfus
+      level: Proficient # Utiliza el resultado de tu examen oficial, o el nivel de acuerdo al modelo Dreyfus
 
     - idiom: Spanish
       level: Native # Utiliza el resultado de tu examen oficial, o el nivel de acuerdo al modelo Dreyfus
 
     - idiom: German
-      level: Colloquial
+      level: Novice
 
   # Registra aquí tus soft skills. Agrega o elimina según sea necesario
   interests:
+    - item: Empathy
+      link: # dejar en blanco
+      
     - item: Communication
       link: # dejar en blanco
 
@@ -50,67 +53,28 @@ sidebar:
 career-profile:
   title: About Me # NO MODIFICAR
   summary: |
-    Lorem ipsum dolor sit amet, con sectetur adipiscing elit. Proin purus ligula, posuere semper est sed, pretium elementum massa. Duis et orci sed nunc. Maecenas at egestas mi. Nulla id augue a lectus condimentum scelerisque vitae sed dui.
-
+    I am a person passionate about science and technology, I am in love with the process of learning, the permanent state of change in the human being has always amazed me, so I perceive the learning process in a holistic way, I loved to soak up new visions of the world.
+    
 # Registra aquí tus estudios. Agrega o elimina según sea necesario
 educationcomplete:
-  - degree: Applied Scientist full-time at AWS
-    university: Germany
-    time: 2020 Oct - current
-    details: |
-
-  - degree: PhD in Computer vision and Machine learning
-    university: Heidelberg University
-    time: 2015 - 2020
-    details: |
-      Unsupervised deep learning for automatic behavior analysis
-
-        - Unsupervised learning
-        - Representaion learning
-        - Automatic Behavior Analysis
-
-  - degree: Internship (Master Thesis)
-    university: Tobii
-    time: 2014 - 2015
-    details: |
-      Master thesis topic Hand gesture classification by Deep learning using infrared camera 
-
-        - Deep learning
-        - Hand Gesture
+  -
 
   - degree: Bachelor Degree
-    university: Politecnico di Torino (Torino, Italy)
-    time: 2009 - 2012
+    university: Universidad de Colima
+    time: 2018 - 2021
     details: |
-      Master degree in Computer Engineering
+      Master degree in Telematics Engineer
 
 # Registra aquí tu experiencia. Agrega o elimina según sea necesario
 experiences:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: Research Assistant
+    time: 2019 - Present
+    company: University of Colima
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
+      My work involves the use of machine learning algorithms and understanding the 
+      mathematics behind the algorithms.
+        - Performed statistical, qualitative, and quantitative analysis.
+        - Prepared materials for reports, presentations, and submission to peer-reviewed journal publications.
 
 # Registra aquí tus habilidades técnicas, para level utiliza:
 # 20% para Novice
@@ -123,22 +87,25 @@ skills:
 
   toolset:
     - name: Python
-      level: 20%
-
-    - name: PyTorch
       level: 40%
 
-    - name: Tensorflow
-      level: 60%
-
-    - name: Caffe
+    - name: R
       level: 80%
 
-    - name: Matlab
-      level: 100%
+    - name: Tensorflow
+      level: 40%
+
+    - name: Keras
+      level: 40%
+
+    - name: Javascript
+      level: 20%
 
     - name: C/C++
-      level: 40%
+      level: 60%
+      
+    - name: React 
+      level: 20%
 
 # NO MODIFICAR
 footer: >
